@@ -1,7 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
 import {AnimatedBeamDemo} from "@/components/animatedbeamdemo"
+import Ripple from "@/components/magicui/ripple";
 import Marquee from "react-fast-marquee";
+import {GlobeDemo} from "@/components/animateglobe"
+
 function HeroSection() {
   return (
     <div className=' h-auto w-full bg-white text-black flex flex-col gap-9 pt-[130px]'>
@@ -184,7 +187,25 @@ function HeroSection() {
             <button className='bg-[#01e101] p-1 w-[200px] h-[50px]  text-white rounded-md  '>Request an audit</button>
             </div>
         </div>
-        <div className='h-[600px] w-full bg-white'></div>
+        <div className='h-[600px] w-full bg-white flex items-center justify-center '>
+        <div className="relative flex h-full w-3/4  items-center justify-center overflow-hidden rounded-lg  bg-background p-20 ">
+        <div></div>
+        <div>
+        <Image
+          className='h-[70px] w-[70px]'
+          src="/DP.jpg"
+          alt=''
+          height={500}
+          width={500}
+          />
+        </div>
+      <div className="z-10  text-center text-5xl font-medium  text-white mr-5">
+        Guild
+      </div>
+      
+      <Ripple />
+    </div>
+        </div>
       </div>
       </div>
 
@@ -272,7 +293,14 @@ function HeroSection() {
                     <div className='text-2xl'>CodeHawks helps protect protocols, users, and funds through competitive smart contract audits performed by top world auditors and our community.</div>
                     <div><button  className='bg-white  p-1 h-[50px] w-[200px]  text-black rounded-md text-md border-[#e0e5e9] border-2'>go to code hawks</button></div>
                 </div>
-                <div className=' h-[600px]  mr-10 w-3/6 bg-white'></div>
+                <div className=' h-[600px]  mr-10 w-3/6 bg-white'>
+                <Image 
+                src='/WhatsApp_Image_2024-02-01_at_10.10.33_AM.jpeg'
+                alt=''
+                height={500}
+                width={500}
+                />
+                </div>
             </div>
 
             <div className=' flex flex-row justify-evenly w-full'>
@@ -334,13 +362,14 @@ function HeroSection() {
         <div className=' text-xl font-light'>Were on a mission to create a secure, safe, reliable, and transparent on-chain environment for everyone.</div>
       </div>
       <div className='h-[800px] w-full z-0 relative bg-white'>
-        <div className='h-[300px] top-44 left-16 absolute'>
-            <Image
+        <div >
+            {/* <Image
             src='/40a3c03e2d8f4341a0730195c24dbefd.png'
             alt=''
             height={500}
             width={500}
-            />
+            /> */}
+            <GlobeDemo/>
         </div>
       </div>
       </div>

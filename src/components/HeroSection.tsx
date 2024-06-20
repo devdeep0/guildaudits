@@ -280,48 +280,67 @@ function HeroSection() {
         </div>
 
         {/* fifth */}
-        <div className='h-auto  flex flex-col justify-center items-center w-full bg-white'>
-            <div className='flex mt-10 flex-col justify-center items-center gap-4'>
+        <div className='h-auto gap-10 flex flex-col justify-center items-center w-full bg-white'>
+            <div className='flex mt-10 flex-col justify-center items-center gap-4 w-full'>
                 <div className=' text-xl'>Our Platforms</div>
                 <div className='font-semibold text-4xl'>Securing the blockchain ecosystem, one platform at a time</div>
-                <div className='text-2xl font-light'>We’re reshaping the blockchain security landscape with advanced tools and platforms, serving thousands of developers and protocols every day.</div>
+                <div className='text-2xl font-light w-5/6'>We’re reshaping the blockchain security landscape with advanced tools and platforms, serving thousands of developers and protocols every day.</div>
             </div>
 
-            <div className=' flex flex-row justify-evenly w-full'>
-                <div className='gap-5 h-[600px] ml-10 mr-10 w-3/6 bg-white flex flex-col justify-center p-5 '>
-                    <div className='text-5xl font-bold'>Competitive Audits Platform</div>
-                    <div className='text-2xl'>CodeHawks helps protect protocols, users, and funds through competitive smart contract audits performed by top world auditors and our community.</div>
+            <div className='mt-4 flex flex-row justify-center gap-10 w-full'>
+                <div className='gap-5 h-[450px] w-[650px] bg-white flex flex-col justify-center p-5 '>
+                    <div className='text-4xl font-bold'>Competitive Audits Platform</div>
+                    <div className='text-xl'>CodeHawks helps protect protocols, users, and funds through competitive smart contract audits performed by top world auditors and our community.</div>
                     <div><button  className='bg-white  p-1 h-[50px] w-[200px]  text-black rounded-md text-md border-[#e0e5e9] border-2'>go to code hawks</button></div>
                 </div>
-                <div className=' h-[600px]  mr-10 w-3/6 bg-white'>
+                <div className=' h-[450px]  p-4 w-[650px]  bg-white'>
                 <Image 
+                className='h-full  w-full rounded-2xl'
                 src='/WhatsApp_Image_2024-02-01_at_10.10.33_AM.jpeg'
                 alt=''
-                height={500}
+                height={350}
                 width={500}
                 />
                 </div>
             </div>
 
-            <div className=' flex flex-row justify-evenly w-full'>
-                <div className='gap-5 h-[600px] ml-10 mr-10 w-3/6 bg-white flex flex-col justify-center p-5 '>
+            <div className='mt-4 flex flex-row justify-center gap-10 w-full '>
                    
+                
+                <div className=' h-[450px] w-[650px] bg-white'>
+                <Image 
+                className='h-full  w-full rounded-2xl'
+                src='/WhatsApp_Image_2024-02-01_at_10.10.33_AM.jpeg'
+                alt=''
+                height={350}
+                width={500}
+                />
+                
                 </div>
-                <div className=' h-[600px]  mr-10 w-3/6 bg-white flex flex-col justify-center p-5 gap-5'>
-                <div className='text-5xl font-bold'>Web3 Education</div>
-                    <div className='text-2xl'>Cyfrin Updraft helps the best blockchain engineers land their jobs. Level up your career guided by industry-leading educators.</div>
+                <div className=' gap-5 h-[450px] w-[650px] bg-white flex flex-col justify-center p-5'>
+                <div className='text-4xl font-bold'>Web3 Education</div>
+                    <div className='text-xl'>Cyfrin Updraft helps the best blockchain engineers land their jobs. Level up your career guided by industry-leading educators.</div>
                     <div><button className='bg-white  p-1 h-[50px] w-[200px]  text-black rounded-md text-md border-[#e0e5e9] border-2'>go to code hawks</button></div>
                 </div>
             </div>
             
-            <div className=' flex flex-row justify-evenly w-full'>
-                <div className='gap-5 h-[600px] ml-10 mr-10 w-3/6 bg-white flex flex-col justify-center p-5 '>
-                    <div className='text-5xl font-bold'>Security Research Tool</div>
-                    <div className='text-2xl'>Solodit is a comprehensive platform aggregating security vulnerabilities, bounties, contests, and resources from many blockchain security firms.</div>
-                    <div><button className='bg-white  p-1 h-[50px] w-[200px]  text-black rounded-md text-md border-[#e0e5e9] border-2'>go to code hawks</button></div>
+            <div className='mt-4 flex flex-row justify-center gap-10 w-full'>
+                <div className='gap-5 h-[450px] w-[650px] bg-white flex flex-col justify-center p-5 '>
+                    <div className='text-4xl font-bold'>Competitive Audits Platform</div>
+                    <div className='text-xl'>CodeHawks helps protect protocols, users, and funds through competitive smart contract audits performed by top world auditors and our community.</div>
+                    <div><button  className='bg-white  p-1 h-[50px] w-[200px]  text-black rounded-md text-md border-[#e0e5e9] border-2'>go to code hawks</button></div>
                 </div>
-                <div className=' h-[600px]  mr-10 w-3/6 bg-white'></div>
+                <div className=' h-[450px]  p-4 w-[650px]  bg-white'>
+                <Image 
+                className='h-full  w-full rounded-2xl'
+                src='/WhatsApp_Image_2024-02-01_at_10.10.33_AM.jpeg'
+                alt=''
+                height={350}
+                width={500}
+                />
+                </div>
             </div>
+
 
             {/* sixth */}
         </div>

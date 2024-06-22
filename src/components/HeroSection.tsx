@@ -4,7 +4,7 @@ import {AnimatedBeamDemo} from "@/components/animatedbeamdemo"
 import Ripple from "@/components/magicui/ripple";
 import Marquee from "react-fast-marquee";
 import {GlobeDemo} from "@/components/animateglobe"
-
+import Accordian from './accordian';
 function HeroSection() {
   return (
     <div className=' h-auto w-full bg-white text-black flex flex-col gap-9 pt-[130px]'>
@@ -566,8 +566,8 @@ function HeroSection() {
 
 
         </div>
-        <div className='flex flex-row bg-white '>
-        <div className='h-[1000px] w-full gap-6 flex p-10 flex-col'>
+        <div className='flex flex-row items-center bg-white '>
+        <div className='h-[900px] w-full gap-6 flex p-10 flex-col'>
             <div className='text-black text-4xl font-bold'>FAQs</div>
             <div className='text-black'>Can’t find an answer? Join our Discord or follow us Twitter.</div>
             <div className=' flex items-start gap-5'>
@@ -575,7 +575,9 @@ function HeroSection() {
             <button className='font-semibold bg-white text-black p-1 w-[120px] h-[43px] gap-2 border-[#e0e5e9] border-2  rounded-md  flex items-center justify-center'><svg xmlns="http://www.w3.org/2000/svg" width="18" height="auto" viewBox="0 0 20 20" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.226 18L9.19002 12.2473L4.13753 18H2L8.24169 10.8953L2 2H7.48796L11.2918 7.42183L16.0578 2H18.1953L12.2433 8.77562L18.7139 18H13.226ZM15.6063 16.3782H14.1673L5.06062 3.62182H6.49988L10.1472 8.72957L10.7779 9.6159L15.6063 16.3782Z" fill="#242E36"></path></svg> Twitter</button>
             </div>
         </div>
-        <div className='h-[1000px] w-full flex items-center justify-center'></div>
+        <div className='h-[900px] w-full flex p-10'>
+            <Accordian/>
+        </div>
       </div>
 
     </div>

@@ -10,14 +10,14 @@ const World = dynamic(() => import("./ui/globe").then((m) => m.World), {
 export function GlobeDemo() {
   const globeConfig = {
     pointSize: 4,
-    globeColor: "#FFFFFF",
+    globeColor: "#5ee060",
     showAtmosphere: true,
     atmosphereColor: "#01e101",
-    atmosphereAltitude: 0.1,
+    atmosphereAltitude: 0.15,
     emissive: "#0a0a0a",
     emissiveIntensity: 0.1,
     shininess: 0.9,
-    polygonColor: "rgba(1, 225, 1,2)",
+    polygonColor: "rgba(0, 0, 0,1)",
     ambientLight: "#FFFFFF",
     directionalLeftLight: "#0a0a0a",
     directionalTopLight: "#ffffff",
@@ -414,7 +414,7 @@ export function GlobeDemo() {
           
         </motion.div>
         <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none  z-40" />
-        <div className="absolute w-full -bottom-20 h-72 md:h-full z-10 mb-4">
+        <div className="absolute w-full -bottom-20 h-72 md:h-full z-10 mb-9">
           <World data={sampleArcs} globeConfig={globeConfig} />;
         </div>
       </div>

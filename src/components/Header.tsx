@@ -3,11 +3,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 function Header() {
   return (
-    <div className='h-[70px] z-20 fixed bg-white w-full text-black flex items-center justify-end pl-6 pr-6'>
+    <div className='h-[70px] z-20 fixed  w-full dark:bg-black text-black bg-white dark:text-white flex items-center justify-end pl-6 pr-6'>
         <div className='flex hover:cursor-pointer items-center justify-center '>
           <Image
           className='h-[70px] w-[70px]'
-          src="/DP.jpg"
+          src="/DPa.png"
           alt=''
           height={500}
           width={500}
@@ -16,17 +16,17 @@ function Header() {
         <div className='h-full flex w-11/12  flex-row'>
           <nav className=' font-medium flex items-center flex-row w-full h-full text-md justify-between'>
            <div className='h-full justify-center items-center flex  '>
-            <div className='w-[120px] flex justify-center hover:cursor-pointer h-full items-center'>Home</div>
+            <Link href="/"><div className='w-[120px] flex justify-center hover:cursor-pointer h-full items-center'>Home</div></Link>
             <div className=' w-[150px] h-full items-center flex justify-center group hover:cursor-pointer '>
               Service
-              <div className='mt-1 h-[20px] w-[20px]'><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M19 9L14 14.1599C13.7429 14.4323 13.4329 14.6493 13.089 14.7976C12.7451 14.9459 12.3745 15.0225 12 15.0225C11.6255 15.0225 11.2549 14.9459 10.9109 14.7976C10.567 14.6493 10.2571 14.4323 10 14.1599L5 9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></div>
+              <div className='mt-1 h-[20px] w-[20px] dark:fill-white fill-black'><svg viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M19 9L14 14.1599C13.7429 14.4323 13.4329 14.6493 13.089 14.7976C12.7451 14.9459 12.3745 15.0225 12 15.0225C11.6255 15.0225 11.2549 14.9459 10.9109 14.7976C10.567 14.6493 10.2571 14.4323 10 14.1599L5 9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></div>
 
-              <div className=" absolute hidden h-auto left-0 w-full group-hover:block top-[70px] hover:cursor-default  bg-white  p-4 ">
+              <div className="dark:bg-black text-black bg-white dark:text-white absolute hidden h-auto left-0 w-full group-hover:block top-[70px] hover:cursor-default  bg-white  p-4 ">
                 <div className='w-full h-full flex'>
                   {/* services */}
-                  <div className='w-[350px]  h-full'>
+                  <div className='w-[350px]  h-full dark:bg-black text-black bg-white dark:text-white'>
                     <div className='text-[12px] text-[#01e101] ml-10'>Services</div>
-                    <div className='ml-10 flex flex-col gap-5'>
+                    <div className='ml-10 flex flex-col gap-5 dark:bg-black text-black bg-white dark:text-white'>
                     <div className='ml- flex gap-4 m-3'>
                       <div className='h-auto w-[60px] flex items-center justify-center' ><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11.5 9.00011L10 12.0001H14L12.5 15.0001M20 12.0001C20 16.4612 14.54 19.6939 12.6414 20.6831C12.4361 20.7901 12.3334 20.8436 12.191 20.8713C12.08 20.8929 11.92 20.8929 11.809 20.8713C11.6666 20.8436 11.5639 20.7901 11.3586 20.6831C9.45996 19.6939 4 16.4612 4 12.0001V8.21772C4 7.4182 4 7.01845 4.13076 6.67482C4.24627 6.37126 4.43398 6.10039 4.67766 5.88564C4.9535 5.64255 5.3278 5.50219 6.0764 5.22146L11.4382 3.21079C11.6461 3.13283 11.75 3.09385 11.857 3.07839C11.9518 3.06469 12.0482 3.06469 12.143 3.07839C12.25 3.09385 12.3539 3.13283 12.5618 3.21079L17.9236 5.22146C18.6722 5.50219 19.0465 5.64255 19.3223 5.88564C19.566 6.10039 19.7537 6.37126 19.8692 6.67482C20 7.01845 20 7.4182 20 8.21772V12.0001Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></div>
                     <div className='flex flex-col '>
@@ -69,7 +69,7 @@ function Header() {
                     </div>
                   </div>
                   {/* supported chains */}
-                  <div className='w-[350px]  h-full'>
+                  <div className='w-[350px]  h-full dark:bg-black text-black bg-white dark:text-white'>
                     <div className='text-[12px] text-[#01e101] ml-10'>Supported Chain</div>
                     <div className='w-full flex-col'>
                    <div className='flex items-center flex-row justify-center gap-4 h-[60px]'>
@@ -185,13 +185,13 @@ function Header() {
             </div>
             
             <div className='w-[150px] h-full items-center flex justify-center group hover:cursor-pointer'>Resources
-            <div className='mt-1 h-[20px] w-[20px]'><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M19 9L14 14.1599C13.7429 14.4323 13.4329 14.6493 13.089 14.7976C12.7451 14.9459 12.3745 15.0225 12 15.0225C11.6255 15.0225 11.2549 14.9459 10.9109 14.7976C10.567 14.6493 10.2571 14.4323 10 14.1599L5 9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></div>
+            <div className='mt-1 h-[20px] w-[20px] dark:fill-white'><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M19 9L14 14.1599C13.7429 14.4323 13.4329 14.6493 13.089 14.7976C12.7451 14.9459 12.3745 15.0225 12 15.0225C11.6255 15.0225 11.2549 14.9459 10.9109 14.7976C10.567 14.6493 10.2571 14.4323 10 14.1599L5 9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></div>
 
-            <div className=" absolute hidden bg-white h-auto left-0 w-full group-hover:block hover:cursor-default top-[70px] text-md  p-4 ">
+            <div className="dark:bg-black text-black bg-white dark:text-white absolute hidden  h-auto left-0 w-full group-hover:block hover:cursor-default top-[70px] text-md  p-4 ">
                 <div className='w-full h-full flex'>
                   {/* services */}
                   <div className='w-[360px]  h-full'>
-                    <div className='text-[14px] text-[#01e101] ml-10'>Resources</div>
+                    <div className='text-[14px] text-[#01e101] ml-10 '>Resources</div>
                     <div className='ml-10 flex flex-col gap-5'>
                     <div className='ml- flex gap-4  p-3 rounded-md hover:bg-[#f0efed]'>
                       <div  className='h-auto w-[40px] flex items-center justify-center'><svg fill="#000000" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M199.77344,125.2334,149.3457,106.6543,130.7666,56.22656a19.9996,19.9996,0,0,0-37.5332,0L74.6543,106.6543,24.22656,125.2334a19.9996,19.9996,0,0,0,0,37.5332L74.6543,181.3457l18.5791,50.42774a19.9996,19.9996,0,0,0,37.5332,0l18.5791-50.42774,50.42774-18.5791a19.9996,19.9996,0,0,0,0-37.5332Zm-60.45606,34.22949a19.97179,19.97179,0,0,0-11.85449,11.85449l.001-.001L112,213.28906,96.53711,171.31738a19.96863,19.96863,0,0,0-11.85352-11.85351L42.71094,144l41.97168-15.46289a19.96863,19.96863,0,0,0,11.85351-11.85352L112,74.71094l15.46289,41.97168a19.96863,19.96863,0,0,0,11.85352,11.85351L181.28906,144ZM140,40a12.0006,12.0006,0,0,1,12-12h12V16a12,12,0,0,1,24,0V28h12a12,12,0,0,1,0,24H188V64a12,12,0,0,1-24,0V52H152A12.0006,12.0006,0,0,1,140,40ZM252,88a12.0006,12.0006,0,0,1-12,12h-4v4a12,12,0,0,1-24,0v-4h-4a12,12,0,0,1,0-24h4V72a12,12,0,0,1,24,0v4h4A12.0006,12.0006,0,0,1,252,88Z"></path> </g></svg></div>

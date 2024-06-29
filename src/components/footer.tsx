@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 function Footer() {
   return (
-    <div className="bg-white p-10 text-black h-[280px] flex flex-col gap-5 w-full">
+    <div className="dark:bg-black text-black bg-white dark:text-black p-10  h-[280px] flex flex-col gap-5 w-full">
         <div className="flex justify-between">
             <div>
             <Image

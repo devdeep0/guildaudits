@@ -9,13 +9,13 @@ const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
 
-const config = {
-  darkMode: ["class"],
+const config : Config = {
+
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/Components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/*/.{js,jsx,ts,tsx}',
 	],
   prefix: "",
   theme: {

@@ -7,9 +7,9 @@ import {GlobeDemo} from "@/components/animateglobe"
 import Accordian from './accordian';
 function HeroSection() {
   return (
-    <div className=' h-auto w-full bg-white text-black flex flex-col gap-9 pt-[130px]'>
+    <div className=' h-auto w-full dark:bg-black bg-white text-black dark:text-white flex flex-col gap-9 pt-[130px]'>
         {/* top */}
-      <div className='flex flex-row'>
+      <div className='flex flex-row '>
         <div className='h-[600px] w-full gap-9  flex justify-center  flex-col'>
             <div className='pl-10 text-6xl'>World-class smart contract security audits, tools and education</div>
             <div className='pl-10 text-xl'>We bring world-class smart contract audits, tools, and education to hundreds of thousands of users, partners, and blockchain protocols.</div>
@@ -18,7 +18,7 @@ function HeroSection() {
                 <button className='bg-[#01e101] p-1 w-[200px] h-[50px]  text-white rounded-md  '>Request an audit</button>
             </div>
         </div>
-        <div className='h-[600px] w-full flex items-center justify-center'><AnimatedBeamDemo/></div>
+        <div className='h-[600px] w-full flex items-center justify-center '><AnimatedBeamDemo/></div>
       </div>
 
         {/* mid */}
@@ -146,12 +146,12 @@ function HeroSection() {
       
         {/* third */}
         <div>
-        <div className='bg-white p-6 text-black gap-4 h-auto w-full flex flex-col pl-10 justify-center'>
+        <div className='dark:bg-black bg-white text-black dark:text-white p-6  gap-4 h-auto w-full flex flex-col pl-10 justify-center'>
         <div className='text-4xl font-bold'>We’re helping secure over $10B of DeFi TVL</div>
-        <div className='w-3/6 text-xl font-light'>Cyfrin helps secure some of the top protocols and organizations in DeFi. We combine top leading researchers to enhance the security of our customers and their users.</div>
+        <div className='w-3/6 text-xl font-light'>guild helps secure some of the top protocols and organizations in DeFi. We combine top leading researchers to enhance the security of our customers and their users.</div>
       </div>
         <div className='flex flex-row'>
-        <div className='pl-10 h-[600px] w-full gap-16 bg-white text-black flex justify-center  flex-col'>
+        <div className='pl-10 h-[600px] w-full gap-16 dark:bg-black bg-white text-black dark:text-white flex justify-center  flex-col'>
             
            <div className='flex flex-row items-center justify-center gap-4'>
            <div className='w-[70px]'><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 12L11 14L15 9.99999M20 12C20 16.4611 14.54 19.6937 12.6414 20.683C12.4361 20.79 12.3334 20.8435 12.191 20.8712C12.08 20.8928 11.92 20.8928 11.809 20.8712C11.6666 20.8435 11.5639 20.79 11.3586 20.683C9.45996 19.6937 4 16.4611 4 12V8.21759C4 7.41808 4 7.01833 4.13076 6.6747C4.24627 6.37113 4.43398 6.10027 4.67766 5.88552C4.9535 5.64243 5.3278 5.50207 6.0764 5.22134L11.4382 3.21067C11.6461 3.13271 11.75 3.09373 11.857 3.07827C11.9518 3.06457 12.0482 3.06457 12.143 3.07827C12.25 3.09373 12.3539 3.13271 12.5618 3.21067L17.9236 5.22134C18.6722 5.50207 19.0465 5.64243 19.3223 5.88552C19.566 6.10027 19.7537 6.37113 19.8692 6.6747C20 7.01833 20 7.41808 20 8.21759V12Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg> </div>
@@ -160,7 +160,7 @@ function HeroSection() {
             <div className='text-xl font-light'>Trusted by the worlds biggest protocols, we only involve lead researchers for the highest security standards.</div>
             </div>
            </div>
-           <div className='flex flex-row items-center justify-center gap-4'>
+           <div className='flex flex-row items-center justify-center gap-4 '>
            <div className='w-[70px]'><svg fill="#000000" viewBox="0 0 24 24" id="up-trend-round" data-name="Flat Line" xmlns="http://www.w3.org/2000/svg" className="icon flat-line"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M21,7l-6.79,6.79a1,1,0,0,1-1.42,0l-2.58-2.58a1,1,0,0,0-1.42,0L3,17" style={{fill: "none", stroke: "#000000", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2}}></path><polyline id="primary-2" data-name="primary" points="21 11 21 7 17 7" style={{fill: "none", stroke: "#000000", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2}}></polyline></g></svg>
            </div>
             <div className='flex flex-col gap-2'>
@@ -169,19 +169,19 @@ function HeroSection() {
             </div>
            </div>
            <div className='flex flex-row items-center justify-center gap-4'>
-           <div className='w-[60px]'><svg fill="#000000" viewBox="-3 0 19 19" xmlns="http://www.w3.org/2000/svg" className="cf-icon-svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12.365 10.832a.473.473 0 0 1-.012.106q.012.179.012.37c0 3.239-5.865 5.063-5.865 5.063S.635 14.547.635 11.307q0-.19.012-.37a.473.473 0 0 1-.012-.105V3.643a.476.476 0 0 1 .475-.475h10.78a.476.476 0 0 1 .475.475zm-2.291-2.554a.476.476 0 0 0-.475-.475h-1.89v-1.89a.476.476 0 0 0-.474-.474h-1.47a.476.476 0 0 0-.475.475v1.889H3.401a.476.476 0 0 0-.475.475v1.47a.476.476 0 0 0 .475.474h1.89v1.889a.476.476 0 0 0 .474.475h1.47a.476.476 0 0 0 .475-.475v-1.889h1.889a.476.476 0 0 0 .475-.475z"></path></g></svg></div>
+           <div className='w-[70px]'><svg fill="#000000" viewBox="-3 0 19 19" xmlns="http://www.w3.org/2000/svg" className="cf-icon-svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12.365 10.832a.473.473 0 0 1-.012.106q.012.179.012.37c0 3.239-5.865 5.063-5.865 5.063S.635 14.547.635 11.307q0-.19.012-.37a.473.473 0 0 1-.012-.105V3.643a.476.476 0 0 1 .475-.475h10.78a.476.476 0 0 1 .475.475zm-2.291-2.554a.476.476 0 0 0-.475-.475h-1.89v-1.89a.476.476 0 0 0-.474-.474h-1.47a.476.476 0 0 0-.475.475v1.889H3.401a.476.476 0 0 0-.475.475v1.47a.476.476 0 0 0 .475.474h1.89v1.889a.476.476 0 0 0 .474.475h1.47a.476.476 0 0 0 .475-.475v-1.889h1.889a.476.476 0 0 0 .475-.475z"></path></g></svg></div>
             <div className='flex flex-col gap-2'>
             <div className='text-2xl font-semibold'>Establish trust with your users</div>
             <div className='text-xl font-light'>Smart contract audits are vital in communicating maturity and safety to your users.</div>
             </div>
            </div>
             <div className='text-xl font-semibold pl-10 flex items-start gap-5'>
-            <button className='bg-white  p-1 h-[50px] w-[200px]  text-black rounded-md text-md border-[#e0e5e9] border-2'>Learn about audit</button>
+            <button className='dark:bg-black bg-white text-black dark:text-white p-1 h-[50px] w-[200px]   rounded-md text-md border-[#e0e5e9] border-2'>Learn about audit</button>
             <button className='bg-[#01e101] p-1 w-[200px] h-[50px]  text-white rounded-md  '>Request an audit</button>
             </div>
         </div>
-        <div className='h-[600px] w-full bg-white flex items-center justify-center '>
-        <div className="relative flex h-full w-3/4  items-center justify-center overflow-hidden rounded-lg  bg-background p-20 ">
+        <div className='h-[600px] w-full dark:bg-black bg-white text-black dark:text-white flex items-center justify-center '>
+        <div className="relative flex h-full w-3/4  items-center justify-center overflow-hidden rounded-lg  bg-background p-20 dark:bg-black bg-white text-black dark:text-white">
         <div></div>
         <div>
         <Image
@@ -273,7 +273,7 @@ function HeroSection() {
         </div>
 
         {/* fifth */}
-        <div className='h-auto gap-10 flex flex-col justify-center items-center w-full bg-white'>
+        <div className='h-auto gap-10 flex flex-col justify-center items-center w-full dark:bg-black bg-white text-black dark:text-white'>
             <div className='flex mt-10 flex-col justify-center items-center gap-4 w-full'>
                 <div className=' text-xl'>Our Platforms</div>
                 <div className='font-semibold text-4xl'>Securing the blockchain ecosystem, one platform at a time</div>
@@ -281,12 +281,12 @@ function HeroSection() {
             </div>
 
             <div className='mt-4 flex flex-row justify-center gap-10 w-full'>
-                <div className='gap-5 h-[450px] w-[650px] bg-white flex flex-col justify-center p-5 '>
+                <div className='gap-5 h-[450px] w-[650px] dark:bg-black bg-white text-black dark:text-white flex flex-col justify-center p-5 '>
                     <div className='text-4xl font-bold'>Competitive Audits Platform</div>
                     <div className='text-xl'>CodeHawks helps protect protocols, users, and funds through competitive smart contract audits performed by top world auditors and our community.</div>
                     <div><button  className='bg-white  p-1 h-[50px] w-[200px]  text-black rounded-md text-md border-[#e0e5e9] border-2'>go to code hawks</button></div>
                 </div>
-                <div className=' h-[450px]  p-4 w-[650px]  bg-white'>
+                <div className=' h-[450px]  p-4 w-[650px]  dark:bg-black bg-white text-black dark:text-white'>
                 <Image 
                 className='h-full  w-full rounded-2xl'
                 src='/WhatsApp_Image_2024-02-01_at_10.10.33_AM.jpeg'
@@ -300,7 +300,7 @@ function HeroSection() {
             <div className='mt-4 flex flex-row justify-center gap-10 w-full '>
                    
                 
-                <div className=' h-[450px] w-[650px] bg-white'>
+                <div className=' h-[450px] w-[650px] dark:bg-black bg-white text-black dark:text-white'>
                 <Image 
                 className='h-full  w-full rounded-2xl'
                 src='/WhatsApp_Image_2024-02-01_at_10.10.33_AM.jpeg'
@@ -310,20 +310,20 @@ function HeroSection() {
                 />
                 
                 </div>
-                <div className=' gap-5 h-[450px] w-[650px] bg-white flex flex-col justify-center p-5'>
+                <div className=' gap-5 h-[450px] w-[650px] dark:bg-black bg-white text-black dark:text-white flex flex-col justify-center p-5'>
                 <div className='text-4xl font-bold'>Web3 Education</div>
-                    <div className='text-xl'>Cyfrin Updraft helps the best blockchain engineers land their jobs. Level up your career guided by industry-leading educators.</div>
+                    <div className='text-xl'>guild Updraft helps the best blockchain engineers land their jobs. Level up your career guided by industry-leading educators.</div>
                     <div><button className='bg-white  p-1 h-[50px] w-[200px]  text-black rounded-md text-md border-[#e0e5e9] border-2'>go to code hawks</button></div>
                 </div>
             </div>
             
             <div className='mt-4 flex flex-row justify-center gap-10 w-full'>
-                <div className='gap-5 h-[450px] w-[650px] bg-white flex flex-col justify-center p-5 '>
+                <div className='gap-5 h-[450px] w-[650px] dark:bg-black bg-white text-black dark:text-white flex flex-col justify-center p-5 '>
                     <div className='text-4xl font-bold'>Competitive Audits Platform</div>
                     <div className='text-xl'>CodeHawks helps protect protocols, users, and funds through competitive smart contract audits performed by top world auditors and our community.</div>
                     <div><button  className='bg-white  p-1 h-[50px] w-[200px]  text-black rounded-md text-md border-[#e0e5e9] border-2'>go to code hawks</button></div>
                 </div>
-                <div className=' h-[450px]  p-4 w-[650px]  bg-white'>
+                <div className=' h-[450px]  p-4 w-[650px]  dark:bg-black bg-white text-black dark:text-white'>
                 <Image 
                 className='h-full  w-full rounded-2xl'
                 src='/WhatsApp_Image_2024-02-01_at_10.10.33_AM.jpeg'
@@ -337,26 +337,26 @@ function HeroSection() {
 
             {/* sixth */}
         </div>
-        <div className='text-black bg-white gap-6 h-auto p-9 w-full flex flex-col pl-10 justify-center'>
+        <div className='dark:bg-black bg-white text-black dark:text-white gap-6 h-auto p-9 w-full flex flex-col pl-10 justify-center'>
             <div className='text-5xl font-bold'>The blockchain security problem</div>
             <div className='w-3/6 text-2xl'>More than $2B is stolen every year from on-chain protocol hacks. Were here to solve this.</div>
-            <div className='flex flex-wrap h-auto gap-5 m-5 w-full'>
-                <div className='h-[300px]  gap-5 text-black bg-white p-5 w-[350px] flex flex-col'>
+            <div className='flex flex-wrap h-auto gap-5 m-5 w-full '>
+                <div className='h-[300px]  gap-5 dark:bg-black bg-white text-black dark:text-white p-5 w-[350px] flex flex-col'>
                     <div className='text-7xl font-bold text-[#01e101] '>120+</div>
                     <div className='font-bold text-2xl text-[#3d3d3d]'>Avg number of bugs in smart contracts</div>
                     <div>Every protocol on any chain can be the target of exploits. Security is an interoperable standard.</div>
                 </div>
-                <div className='h-[300px]  gap-5 text-black bg-white p-5 w-[350px] flex flex-col'>
+                <div className='h-[300px]  gap-5 dark:bg-black bg-white text-black dark:text-white p-5 w-[350px] flex flex-col'>
                     <div className='text-7xl font-bold text-[#01e101] '>10+</div>
                     <div className='font-bold text-2xl text-[#3d3d3d]'>Projects hacked</div>
                     <div>Every year, hundreds of protocols get hacked. The majority, had never been properly audited.</div>
                 </div>
-                <div className='h-[300px]  gap-5 text-black bg-white p-5 w-[350px] flex flex-col'>
+                <div className='h-[300px]  gap-5 dark:bg-black bg-white text-black dark:text-white p-5 w-[350px] flex flex-col'>
                     <div className='text-7xl font-bold text-[#01e101] '>$1B+</div>
                     <div className='font-bold text-2xl text-[#3d3d3d]'>TVL stolen</div>
                     <div>DeFi protocols suffer millions of dollars in losses to exploits every year due to insufficient security practices.</div>
                 </div>
-                <div className='h-[300px]  gap-5 text-black bg-white p-5 w-[350px] flex flex-col'>
+                <div className='h-[300px]  gap-5 dark:bg-black bg-white text-black dark:text-white p-5 w-[350px] flex flex-col'>
                     <div className='text-7xl font-bold text-[#01e101] '>30+</div>
                     <div className='font-bold text-2xl text-[#3d3d3d]'>Cross-chain protocols hacked</div>
                     <div>Every year tens of cross-chain protocols get hacked, uncovering the needs for outstanding security standards</div>
@@ -367,13 +367,13 @@ function HeroSection() {
          {/* seventh */}
         <div>
         <div className='flex flex-row'>
-        <div className='bg-white h-[800px] w-full p-6 text-black gap-4 flex flex-col pl-10 justify-center'>
+        <div className=' h-[800px] w-full p-6 dark:bg-black bg-white text-black dark:text-white gap-4 flex flex-col pl-10 justify-center'>
             <div className='font-bold text-[#01e101]'>Our mission</div>
         <div className='text-4xl font-bold'>We’re on a mission to secure the future of finance</div>
-        <div className=' text-xl font-light'>Cyfrin is committed to bringing industry-leading smart contract security audits and education to our partners, their projects, customers, and developers at all levels worldwide.</div>
+        <div className=' text-xl font-light'>guild is committed to bringing industry-leading smart contract security audits and education to our partners, their projects, customers, and developers at all levels worldwide.</div>
         <div className=' text-xl font-light'>Were on a mission to create a secure, safe, reliable, and transparent on-chain environment for everyone.</div>
       </div>
-      <div className='h-[800px] w-full z-0 relative bg-white'>
+      <div className='h-[800px] w-full z-0 relative dark:bg-black bg-white text-black dark:text-white'>
         <div >
             {/* <Image
             src='/40a3c03e2d8f4341a0730195c24dbefd.png'
@@ -392,7 +392,7 @@ function HeroSection() {
 
         <div>
             <div></div>
-        <div className='bg-white p-6 text-black gap-4 h-auto w-full flex flex-col pl-10 justify-center'>
+        <div className=' p-6 dark:bg-black bg-white text-black dark:text-white gap-4 h-auto w-full flex flex-col pl-10 justify-center'>
         <div className='w-4/6 text-4xl font-bold'>We’re making protocols safer— but don’t just take our word for it</div>
         <div className='w-4/6 text-xl font-light'>Heres a sneak peek into our previous smart contract audits and how weve helped secure tens of billions of dollars across blockchains and protocols.</div>
         <div className='bg-green-600 h-[600px] rounded-xl w-[500px] p-6 '>
@@ -416,17 +416,17 @@ function HeroSection() {
         </div>
         <div className='w-full flex items-center justify-center mt-9'><button  className='bg-blue-600 p-1 w-[200px] h-[50px]  text-white rounded-md  '>Explore all case studies</button></div>
       </div>
-      <div className='bg-white p-6 text-black gap-4 h-auto w-full flex flex-col pl-10 justify-center'>
+      <div className=' p-6 dark:bg-black bg-white text-black dark:text-white gap-4 h-auto w-full flex flex-col pl-10 justify-center'>
         <div className='w-4/6 text-4xl font-bold'>An all-star, world-class team</div>
         <div className='w-3/6 text-xl font-light'>Home to some of the best smart contract security researchers in the market— professionals at Cyfrin come from backgrounds like Chainlink, Alchemy, Aragon, WorldCoin, Microsoft, and Google.</div>
         <div className='h-[700px] w-full'></div>
         <div className='w-full flex items-center justify-center mt-9'><button  className='bg-white  p-1 h-[50px] w-[200px]  text-black rounded-md text-md border-[#e0e5e9] border-2'>Learn about cyfrin</button></div>
         </div>
 
-        <div className='bg-white p-6 text-black gap-4 h-[600px] w-full flex flex-col pl-10 '>
+        <div className='bg-white p-6 dark:bg-black  text-black dark:text-white gap-4 h-[600px] w-full flex flex-col pl-10 '>
         <div className='w-full text-4xl font-bold flex justify-between'>
             <div>Secure your protocol today</div>
-            <div className='text-xl font-semibold pl-10 flex items-start gap-5'>
+            <div className=' text-xl font-semibold pl-10 flex items-start gap-5'>
             <button className='bg-white  p-1 h-[50px] w-[250px]  text-black rounded-md text-md border-[#e0e5e9] border-2'>Our Auditing process</button>
             <button className='bg-[#01e101] p-1 w-[200px] h-[50px]  text-white rounded-md  '>Request an audit</button>
             </div>
@@ -435,7 +435,7 @@ function HeroSection() {
         <div className='w-3/6 text-xl font-light'>Join some of the biggest protocols and companies in creating a better internet. Our security researchers will help you throughout the whole process.</div>
         <div className='w-2/4  flex flex-wrap gap-5 mt-4 '>
 
-        <div className='w-[1100px]'>
+        <div className='w-[1100px] bg-white'>
             <Marquee gradientColor='white' gradient direction='right'>
             <div className='flex gap-10 items-center justify-center'>
         <div className='ml-20'>
@@ -552,10 +552,10 @@ function HeroSection() {
 
 
         </div>
-        <div className='flex flex-row items-center bg-white '>
+        <div className='flex flex-row items-center dark:bg-black bg-white text-black dark:text-white '>
         <div className='h-[900px] w-full gap-6 flex p-10 flex-col'>
-            <div className='text-black text-4xl font-bold'>FAQs</div>
-            <div className='text-black'>Can’t find an answer? Join our Discord or follow us Twitter.</div>
+            <div className='dark:bg-black bg-white text-black dark:text-white text-4xl font-bold'>FAQs</div>
+            <div className='dark:bg-black bg-white text-black dark:text-white'>Can’t find an answer? Join our Discord or follow us Twitter.</div>
             <div className=' flex items-start gap-5'>
             <button className='font-semibold bg-white  p-1 h-[43px] w-[120px]  text-black rounded-md text-md border-[#e0e5e9] border-2 flex items-center justify-center gap-2'><svg className='h-[30px]' viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M2 11.6C2 8.23969 2 6.55953 2.65396 5.27606C3.2292 4.14708 4.14708 3.2292 5.27606 2.65396C6.55953 2 8.23969 2 11.6 2H20.4C23.7603 2 25.4405 2 26.7239 2.65396C27.8529 3.2292 28.7708 4.14708 29.346 5.27606C30 6.55953 30 8.23969 30 11.6V20.4C30 23.7603 30 25.4405 29.346 26.7239C28.7708 27.8529 27.8529 28.7708 26.7239 29.346C25.4405 30 23.7603 30 20.4 30H11.6C8.23969 30 6.55953 30 5.27606 29.346C4.14708 28.7708 3.2292 27.8529 2.65396 26.7239C2 25.4405 2 23.7603 2 20.4V11.6Z" fill="white"></path> <path d="M23.6361 9.33998C22.212 8.71399 20.6892 8.25903 19.0973 8C18.9018 8.33209 18.6734 8.77875 18.5159 9.13408C16.8236 8.89498 15.1469 8.89498 13.4857 9.13408C13.3283 8.77875 13.0946 8.33209 12.8974 8C11.3037 8.25903 9.77927 8.71565 8.35518 9.3433C5.48276 13.4213 4.70409 17.3981 5.09342 21.3184C6.99856 22.6551 8.84487 23.467 10.66 23.9983C11.1082 23.4189 11.5079 22.8029 11.8523 22.1536C11.1964 21.9195 10.5683 21.6306 9.9748 21.2951C10.1323 21.1856 10.2863 21.071 10.4351 20.9531C14.0551 22.5438 17.9881 22.5438 21.5649 20.9531C21.7154 21.071 21.8694 21.1856 22.0251 21.2951C21.4299 21.6322 20.8 21.9211 20.1442 22.1553C20.4885 22.8029 20.8865 23.4205 21.3364 24C23.1533 23.4687 25.0013 22.6567 26.9065 21.3184C27.3633 16.7738 26.1261 12.8335 23.6361 9.33998ZM12.3454 18.9075C11.2587 18.9075 10.3676 17.9543 10.3676 16.7937C10.3676 15.6331 11.2397 14.6783 12.3454 14.6783C13.4511 14.6783 14.3422 15.6314 14.3232 16.7937C14.325 17.9543 13.4511 18.9075 12.3454 18.9075ZM19.6545 18.9075C18.5678 18.9075 17.6767 17.9543 17.6767 16.7937C17.6767 15.6331 18.5488 14.6783 19.6545 14.6783C20.7602 14.6783 21.6514 15.6314 21.6323 16.7937C21.6323 17.9543 20.7602 18.9075 19.6545 18.9075Z" fill="#5865F2"></path> </g></svg> Discord</button>
             <button className='font-semibold bg-white text-black p-1 w-[120px] h-[43px] gap-2 border-[#e0e5e9] border-2  rounded-md  flex items-center justify-center'><svg xmlns="http://www.w3.org/2000/svg" width="18" height="auto" viewBox="0 0 20 20" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.226 18L9.19002 12.2473L4.13753 18H2L8.24169 10.8953L2 2H7.48796L11.2918 7.42183L16.0578 2H18.1953L12.2433 8.77562L18.7139 18H13.226ZM15.6063 16.3782H14.1673L5.06062 3.62182H6.49988L10.1472 8.72957L10.7779 9.6159L15.6063 16.3782Z" fill="#242E36"></path></svg> Twitter</button>

@@ -6,7 +6,7 @@ function page() {
   return (
     <>
     <Header/>
-    <div className='h-auto w-full flex flex-col pt-[130px] gap-10 '>
+    <div className='h-auto w-full flex flex-col pt-[130px] gap-10 bg-white dark:bg-black '>
       {/* top */}
       <div className='flex flex-row'>
       <div className='w-2/4 flex flex-col items-center gap-10'>
@@ -26,9 +26,9 @@ function page() {
       </div>
 
       {/* second */}
-        <h1 className='text-4xl '>Smart Contracts</h1>
-      <div className='w-full flex justify-center font-bold h-auto mt-20'>
-        <div>
+        <h1 className='text-4xl text-center font-bold'>Smart Contracts</h1>
+      <div className='w-full flex justify-start font-bold h-auto mt-20'>
+        <div className=' h-auto w-1/2 flex justify-center items-center'>
           
         <GridBackgroundDemo/>
         </div>

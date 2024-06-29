@@ -6,7 +6,7 @@ export function OrbitingCirclesDemo() {
       <span className=" text-center text-8xl font-semibold text-[#01e101] dark:from-white dark:to-slate-900/10">
         <Image
         className=""
-        src='/DP.jpg'
+        src='/DPa.png'
         alt=""
         height={100}
         width={100}

@@ -7,7 +7,7 @@ function Footer() {
             <div>
             <Image
             className="h-[50px] w-auto"
-            src="/IMG-20240606-WA0004.jpg"
+            src="/IMG-20240606-WA0004 copy.png"
             alt=""
             height={500}
             width={500}

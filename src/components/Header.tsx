@@ -22,7 +22,7 @@ function Header() {
               Service
               <div className='mt-1 h-[20px] w-[20px] '><svg viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path className='dark:stroke-white stroke-black fill-none' d="M19 9L14 14.1599C13.7429 14.4323 13.4329 14.6493 13.089 14.7976C12.7451 14.9459 12.3745 15.0225 12 15.0225C11.6255 15.0225 11.2549 14.9459 10.9109 14.7976C10.567 14.6493 10.2571 14.4323 10 14.1599L5 9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></div>
 
-              <div className="dark:bg-black text-black  dark:text-white absolute  h-auto left-0 w-full group-hover:block top-[70px] hover:cursor-default  bg-white  p-4 ">
+              <div className="dark:bg-black text-black  dark:text-white absolute hidden h-auto left-0 w-full group-hover:block top-[70px] hover:cursor-default  bg-white  p-4 ">
                 <div className='w-full h-full flex'>
                   {/* services */}
                   <div className='w-[400px]  h-full dark:bg-black text-black bg-white dark:text-white'>
